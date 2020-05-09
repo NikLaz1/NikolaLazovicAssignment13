@@ -10,7 +10,7 @@
           {{#each burgers}}
             {{#unless devoured}}
               <li>
-                {{burger_name}}
+                {{name}}
                 <button class="change-devoured btn btn btn-outline-info" data-id="{{id}}" data-newState="{{devoured}}">
                   EAT
                 </button>
@@ -30,7 +30,7 @@
           {{#each burgers}}
             {{#if devoured}}
               <li>
-                {{burger_name}}
+                {{name}}
                 <button type="button" class="delete-burger btn btn btn-outline-info" data-id="{{this.id}}">DELETE</button>
 
               </li>

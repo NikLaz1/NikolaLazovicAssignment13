@@ -1,3 +1,3 @@
 # NikolaLazovicAssignment13
 
-Deployed App: https://niklaz1.github.io/NikolaLazovicAssignment13/
+Deployed App: http://nikolalazovicassignment13.herokuapp.com/
